@@ -1,8 +1,6 @@
-//jq '.[] | select(.id=="2").key'
-//jq .[1].key
-//jq '.[] | select(.fingerprint=="D5:1F:F8:83:C6:29:62:CE:76:7C:A6:45:E7:6C:61:5A:34:73:C8:EE")'
+// Little Black Box - Rust version that uses JSON instead of needing sqlite.
+// Author: Sina Tashakkori, QVLx Labs
 
-//use std::process::Command;
 use std::fs;
 use std::io::prelude::*;
 use std::fs::File;
